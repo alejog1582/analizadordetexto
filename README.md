@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Tecnología
+
+Este proyecto fue desarrollado con lenguaje de programación PHP, en el framework Laravel, para la base datos se uso MySQL, asi mismo JavaScript, CSS ,html y jQuery
+
+## Como instalar el sistema
+
+1. Debe tener un ID en este caso yo uso visual studio.e
+2. Debe instalar la base datos para esto debe tener XAMPP o MAMP en su pc y crear la base datos para esto debe primero ponerle un nombre en este caso analizadordedatos.
+3. Debe Clonar el repositorio en su maquina local.
+4. Luego busca el archivo . env y configura el nombre de la base datos , el puerto en el que va correr la aplicación , colocar el usuario y clave por defecto el usuario ya viene con el usuario root.
+5. Continuando con el proceso debe abrir una terminal y darle composer install esto es para instalar el proyecto.
+6. Se deben correr las migracioens con el comando php artisan migrate
+7. por ultimo levantar el servidor con el comando  php artisan serve.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
