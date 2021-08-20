@@ -1,0 +1,20 @@
+body{
+    background-image: url(https://paga.nequi.com.co/bdigitalpsp/images/pattern-login.png);
+    color: #0d4e90;
+}
+.navbar{
+    background-color: #ff2f73 !important;
+}
+.navbar-light .navbar-brand{
+    color: white;
+}
+.navbar-light .navbar-toggler{
+    background-color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.card-header{
+    background-color: #ff2f73 !important;
+    color: white;
+}
